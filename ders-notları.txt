@@ -1,0 +1,20 @@
+dashboard yöneticinin ana sayfasıdır.ilk aşamada salon üye ve eğitmen sayılarını gösterir.
+git,pc de değişkilik geçmişini tutar github aynı projenin uzakta barındırılan kopyasını görmemizi sağlar.
+***git geçişine commit almak bir dosyayı kaydetmek ve githuba push etmek üç ayrı işlemdir.
+projeye başlarken kontrol edilmesi gereken versiyonların komutları şu şekildedir.
+  *node -v 
+  *npm -v 
+  *git --version 
+npm run dev komutu package.json içindeki dev komutunu çalıştırır.
+vite bir geliştirme sunucusu başlatır ve terminalde local adresi verir.
+genellikle localhost 5173 görürüz port doluysa başka bir port kullanılır.
+sunucuyu açık tuttuğumuz sürece dosya değişiklilerini gerçek zamanlı ekranda görebiliriz.
+package.json içerisinde paket adları ve npm komutları,package-lock.json içerisindede npmin çözdüğü sürümler bulunur.
+node moduls klasöru npm tarafından tekrar üretebilir ve git e eklenmez.
+.gitignore dosyasını şablonun oluşturduğu biçimde koruruz.
+
+github ta proje eski halinde görünüyor ise aşağıdaki üç soruya sıtasıyla bakılmalı.
+ *dosya kaydolmuş mu?
+ *commit oluşturulmuş mu?
+ *doğru branche edilmiş mi?
+ 
